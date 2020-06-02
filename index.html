@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hercegnöm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: rgb(212, 83, 83);
+        overflow: auto;
+    }
+
+    .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 33%;
+        text-align: center;
+    }
+
+    .navbar a:hover {
+        background-color: red;
+    }
+
+    .navbar a.active {
+        background-color: red;
+    }
+
+    @media screen and (max-width: 500px) {
+        .navbar a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="navbar">
+        <a href="/szivem.html">Szivem</a>
+        <a href="/index.html">Home</a>
+        <a href="/egyutt.html">Együtt</a>
+    </div>
+
+    <img src="img/angel.jpg" alt="Hercegnöm" class="center">
+
+</body>
+
+</html>
